@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "review-workflow",
+  "displayName": "Review Workflow",
+  "version": "0.1.0",
+  "description": "先确认 Review Brief，再并行且独立执行 code-review 和 trace-review。",
+  "author": {
+    "name": "Local developer"
+  },
+  "keywords": [
+    "review",
+    "code-review",
+    "trace-review",
+    "quality"
+  ],
+  "skills": "./skills/",
+  "commands": [
+    "./.claude/commands/review.md"
+  ],
+  "agents": [
+    "./.claude/agents/code-reviewer.md",
+    "./.claude/agents/trace-reviewer.md"
+  ]
+}

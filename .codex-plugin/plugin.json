@@ -1,0 +1,25 @@
+{
+  "name": "review-workflow",
+  "version": "0.1.0",
+  "description": "先确认 Review Brief，再并行编排 code-review 和 trace-review 的结构化评审流程。",
+  "author": {
+    "name": "Local developer"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Review Workflow",
+    "shortDescription": "先确认 Review Brief，再并行且独立执行 code-review 和 trace-review。",
+    "longDescription": "Review Workflow 提供 review-intake、code-review 和 trace-review，用于先确认 Review Brief，再并行且独立执行代码质量审查和上线后可追踪性审查。",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Review",
+      "Quality"
+    ],
+    "defaultPrompt": [
+      "先确认 Review Brief，再并行执行 code-review 和 trace-review。",
+      "已有已确认的 Review Brief 时，针对当前代码变更并行执行 code-review 和 trace-review。",
+      "先澄清并确认 Review Brief，再审查这次代码变更。"
+    ]
+  }
+}
