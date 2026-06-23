@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "review-workflow",
   "displayName": "Review Workflow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "先确认 Review Brief，再并行且独立执行 code-review 和 trace-review。",
   "author": {
     "name": "Local developer"
