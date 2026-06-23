@@ -168,7 +168,8 @@ trace 信息必须可用，也必须可控：
 结论规则：
 
 - 存在 `Critical` 或 `Important`：`Request changes`。
-- 缺少 Review Brief、diff，或缺少足以判断关键链路的必要上下文，导致无法判断关键链路是否可追踪：`Unable to determine`。
+- 缺少 Review Brief：停止审查并回到 `review-intake`，不输出 trace-review 结论。
+- 缺少 diff 或足以判断关键链路的必要上下文，导致无法判断关键链路是否可追踪：`Unable to determine`。
 - 关键链路和重要分支可追踪，且隐私、噪声、成本和性能边界可接受：`Approve`。
 
 Trace Gaps 分类：
