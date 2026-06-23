@@ -1,0 +1,5 @@
+{
+  "name": "review-workflow",
+  "version": "0.1.0",
+  "description": "先确认 Review Brief，再并行且独立执行 code-review 和 trace-review。"
+}
